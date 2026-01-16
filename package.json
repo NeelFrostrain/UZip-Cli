@@ -1,0 +1,27 @@
+{
+  "name": "ultra-zip",
+  "version": "1.0.2",
+  "description": "Ultra compression CLI with split, restore, and progress bar",
+  "main": "index.js",
+  "bin": {
+    "ultra-zip": "./index.js",
+    "uz": "./ultra-zip.exe"
+  },
+  "scripts": {
+    "build": "npx pkg . --targets node18-win-x64 --output ultra-zip.exe"
+  },
+  "keywords": [
+    "zip",
+    "7zip",
+    "compress",
+    "cli",
+    "archive",
+    "backup",
+    "split"
+  ],
+  "author": "Neel",
+  "license": "MIT",
+  "dependencies": {
+    "pkg": "^5.8.1"
+  }
+}
