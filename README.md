@@ -35,8 +35,6 @@ Ultra-Zip is a powerful CLI tool built on top of 7-Zip that allows you to:
 npm install -g ultra-zip
 ```
 
-````
-
 ---
 
 ## Usage
@@ -84,4 +82,7 @@ ultra-zip -h
 ultra-zip --version
 ultra-zip -v
 ```
-````
+
+```
+
+```
