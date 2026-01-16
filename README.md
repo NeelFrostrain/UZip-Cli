@@ -62,7 +62,7 @@ ultra-zip -restore <folder>
 uz -restore <folder>
 ```
 
-Example:
+### Example:
 
 ```bash
 ultra-zip -restore backup
