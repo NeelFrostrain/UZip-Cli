@@ -42,14 +42,14 @@ npm install -g uzip-cli
 ### Compress
 
 ```bash
-UZip -compress <input> <output> <size>
+uzip -compress <input> <output> <size>
 uz -compress <input> <output> <size>
 ```
 
 Example:
 
 ```bash
-UZip -compress "MyFolder" backup 2g
+uzip -compress "MyFolder" backup 2g
 uz -compress "MyFolder" backup 2g
 ```
 
