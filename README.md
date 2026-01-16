@@ -1,6 +1,6 @@
-# Ultra-Zip CLI
+# UZip CLI
 
-Ultra-Zip is a powerful CLI tool built on top of 7-Zip that allows you to:
+UZip is a powerful CLI tool built on top of 7-Zip that allows you to:
 
 - Ultra-compress folders
 - Split archives into parts
@@ -32,7 +32,7 @@ Ultra-Zip is a powerful CLI tool built on top of 7-Zip that allows you to:
 ### From NPM (once published)
 
 ```bash
-npm install -g ultra-zip
+npm install -g uzip-cli
 ```
 
 ---
@@ -42,14 +42,14 @@ npm install -g ultra-zip
 ### Compress
 
 ```bash
-ultra-zip -compress <input> <output> <size>
+uzip -compress <input> <output> <size>
 uz -compress <input> <output> <size>
 ```
 
 Example:
 
 ```bash
-ultra-zip -compress "MyFolder" backup 2g
+uzip -compress "MyFolder" backup 2g
 uz -compress "MyFolder" backup 2g
 ```
 
@@ -58,14 +58,14 @@ uz -compress "MyFolder" backup 2g
 ### Restore
 
 ```bash
-ultra-zip -restore <folder>
+uzip -restore <folder>
 uz -restore <folder>
 ```
 
 ### Example:
 
 ```bash
-ultra-zip -restore backup
+uzip -restore backup
 uz -restore backup
 ```
 
@@ -74,10 +74,10 @@ uz -restore backup
 ### Help
 
 ```bash
-ultra-zip --help
+uzip --help
 uz --help
 
-ultra-zip -h
+uzip -h
 uz -h
 ```
 
@@ -86,9 +86,9 @@ uz -h
 ### Version
 
 ```bash
-ultra-zip --version
+uzip --version
 uz --version
 
-ultra-zip -v
+uzip -v
 uz -v
 ```
