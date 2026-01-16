@@ -43,12 +43,14 @@ npm install -g ultra-zip
 
 ```bash
 ultra-zip -compress <input> <output> <size>
+uz -compress <input> <output> <size>
 ```
 
 Example:
 
 ```bash
 ultra-zip -compress "MyFolder" backup 2g
+uz -compress "MyFolder" backup 2g
 ```
 
 ---
@@ -57,12 +59,14 @@ ultra-zip -compress "MyFolder" backup 2g
 
 ```bash
 ultra-zip -restore <folder>
+uz -restore <folder>
 ```
 
-Example:
+### Example:
 
 ```bash
 ultra-zip -restore backup
+uz -restore backup
 ```
 
 ---
@@ -71,7 +75,10 @@ ultra-zip -restore backup
 
 ```bash
 ultra-zip --help
+uz --help
+
 ultra-zip -h
+uz -h
 ```
 
 ---
@@ -80,9 +87,8 @@ ultra-zip -h
 
 ```bash
 ultra-zip --version
+uz --version
+
 ultra-zip -v
-```
-
-```
-
+uz -v
 ```
