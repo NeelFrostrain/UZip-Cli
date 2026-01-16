@@ -1,6 +1,6 @@
 {
   "name": "uzip-cli",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Ultra compression CLI with split, restore, and progress bar",
   "main": "index.js",
   "bin": {

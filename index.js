@@ -6,7 +6,7 @@ const readline = require("readline");
 const { spawn } = require("child_process");
 
 const VERSION = require("./package.json").version;
-const SEVEN_ZIP = path.join(__dirname, "7-Zip", "7z.exe");
+const SEVEN_ZIP = "./7-Zip/7z.exe";
 
 // ---------- Utils ----------
 
