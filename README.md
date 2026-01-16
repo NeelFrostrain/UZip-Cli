@@ -88,6 +88,7 @@ uz -h
 ```bash
 ultra-zip --version
 uz --version
+
 ultra-zip -v
 uz -v
 ```
