@@ -82,7 +82,3 @@ ultra-zip -h
 ultra-zip --version
 ultra-zip -v
 ```
-
-```
-
-```
