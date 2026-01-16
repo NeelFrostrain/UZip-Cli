@@ -7,6 +7,10 @@
     "ultra-zip": "./index.js",
     "uz": "./ultra-zip.exe"
   },
+  "repository": {
+    "url": "https://github.com/NeelFrostrain/Ultra-Zip-Cli.git",
+    "type": "git"
+  },
   "scripts": {
     "build": "npx pkg . --targets node18-win-x64 --output ultra-zip.exe"
   },
@@ -19,7 +23,7 @@
     "backup",
     "split"
   ],
-  "author": "Neel",
+  "author": "Neel Frostrain",
   "license": "MIT",
   "dependencies": {
     "pkg": "^5.8.1"
