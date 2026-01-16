@@ -32,7 +32,7 @@ UZip is a powerful CLI tool built on top of 7-Zip that allows you to:
 ### From NPM (once published)
 
 ```bash
-npm install -g uzip-cli
+npm install -g @neelfrostrain/uzip-cli
 ```
 
 ---
