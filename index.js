@@ -5,8 +5,10 @@ const path = require("path");
 const readline = require("readline");
 const { spawn } = require("child_process");
 
+const isPkg = typeof process.pkg !== "undefined";
 const VERSION = require("./package.json").version;
-const SEVEN_ZIP = "./7-Zip/7z.exe";
+const BASE_DIR = isPkg ? path.dirname(process.execPath) : __dirname;
+const SEVEN_ZIP = path.join(BASE_DIR, "7-Zip", "7z.exe");
 
 // ---------- Utils ----------
 
@@ -36,7 +38,7 @@ UZip CLI v${VERSION}
 
 Parameters:
   --compress || -c   Show help
-  --restore  || -v   Show version
+  --restore  || -r   Show version
   <input>            Input folder
   <output>           Output folder
   <size>             Split size
@@ -79,7 +81,7 @@ function run7z(args, onProgress, onDone) {
     }
   });
 
-  proc.stderr.on("data", () => { });
+  proc.stderr.on("data", () => {});
 
   proc.on("error", () => die("Failed to launch 7-Zip"));
 
