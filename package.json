@@ -1,18 +1,18 @@
 {
-  "name": "ultra-zip",
+  "name": "uzip-cli",
   "version": "1.0.2",
   "description": "Ultra compression CLI with split, restore, and progress bar",
   "main": "index.js",
   "bin": {
-    "ultra-zip": "./index.js",
-    "uz": "./ultra-zip.exe"
+    "uzip": "./index.js",
+    "uz": "./uzip.exe"
   },
   "repository": {
-    "url": "https://github.com/NeelFrostrain/Ultra-Zip-Cli.git",
+    "url": "https://github.com/NeelFrostrain/Uzip-Cli.git",
     "type": "git"
   },
   "scripts": {
-    "build": "npx pkg . --targets node18-win-x64 --output ultra-zip.exe"
+    "build": "npx pkg . --targets node18-win-x64 --output uzip.exe"
   },
   "keywords": [
     "zip",

@@ -32,7 +32,7 @@ function validSize(size) {
 
 function showHelp() {
   console.log(`
-Ultra-Zip CLI v${VERSION}
+UZip CLI v${VERSION}
 
 Parameters:
   --compress || -c   Show help
@@ -46,13 +46,13 @@ Options:
   --version  || -v    Show version
 
 Examples:
-  ultra-zip compress "MyFolder" backup 2g
-  ultra-zip restore backup
+  UZip compress "MyFolder" backup 2g
+  UZip restore backup
 `);
 }
 
 function showVersion() {
-  console.log(`Ultra-Zip v${VERSION}`);
+  console.log(`UZip v${VERSION}`);
 }
 
 function renderBar(percent) {
@@ -79,7 +79,7 @@ function run7z(args, onProgress, onDone) {
     }
   });
 
-  proc.stderr.on("data", () => {});
+  proc.stderr.on("data", () => { });
 
   proc.on("error", () => die("Failed to launch 7-Zip"));
 
